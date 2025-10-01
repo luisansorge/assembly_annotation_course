@@ -9,6 +9,7 @@
 WORKDIR=/data
 OUTDIR=$WORKDIR/users/lansorge/assembly_annotation_course/read_QC
 
+# Run FastQC inside Apptainer container
 apptainer exec --bind $WORKDIR \
     /containers/apptainer/fastqc-0.12.1.sif \
     fastqc -t 4 -o $OUTDIR $WORKDIR/users/lansorge/assembly_annotation_course/RNAseq_Sha/*.fastq.gz
