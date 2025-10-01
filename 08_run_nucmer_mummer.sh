@@ -16,7 +16,7 @@ REF=/data/courses/assembly-annotation-course/references/Arabidopsis_thaliana.TAI
 # Assemblies to compare
 FLYE=$WORKDIR/flye_assembly/assembly.fasta
 HIFIASM=$WORKDIR/hifiasm_assembly/Abd-0.asm.bp.p_ctg.fa
-LJA=$WORKDIR/LJA_assembly/Elh-2_assembly/assembly.fasta
+LJA=$WORKDIR/LJA_assembly/assembly.fasta
 
 # Create output directory if it doesn't exist
 mkdir -p $OUTDIR
