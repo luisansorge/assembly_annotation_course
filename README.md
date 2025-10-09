@@ -2,8 +2,7 @@
 
 This repository contains scripts and instructions for **assembling and evaluating the genome and transcriptome** of *Arabidopsis thaliana* accessions using PacBio HiFi and Illumina RNA-Seq data.
 
-## Datasets
-
+## Data
 - **Whole genome PacBio HiFi reads** for each accession (`Abd-0`)  
 - **Whole transcriptome Illumina RNA-seq** for accession Sha (`RNAseq_Sha`)  
 
