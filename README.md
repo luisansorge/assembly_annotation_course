@@ -1,4 +1,4 @@
-# Genome and Transcriptome Assembly Project
+# Genome and Transcriptome Assembly
 
 This repository contains scripts and instructions for **assembling and evaluating the genome and transcriptome** of *Arabidopsis thaliana* accessions using PacBio HiFi and Illumina RNA-Seq data.
 
